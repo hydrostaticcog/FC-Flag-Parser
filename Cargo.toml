@@ -1,0 +1,10 @@
+[package]
+name = "fc-tools-flags"
+author = "hydrostaticcog <hydro@hydrostaticcog.me>"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ferrischat_common = { git = "https://github.com/FerrisChat/Common.git", version = "0.2", branch = "master" }
